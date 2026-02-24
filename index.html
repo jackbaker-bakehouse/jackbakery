@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0"/>
+  <title>Jacks Country Bakehouse Cafe | Artisan Bakery in Sale, VIC</title>
+  <meta name="description" content="Jacks Country Bakehouse Cafe — Flat whites, crispy confit chicken, gourmet sandwiches, artisan cookies & stunning custom cakes in Sale, Victoria."/>
+  <meta name="theme-color" content="#1a0f08"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;600;700&family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  <script>
+    const IMAGES={logo:"https://images.unsplash.com/photo-1509440159596-0249088772ff?w=200&h=200&fit=crop&q=80",hero:"https://i.postimg.cc/fTT0BMg8/Screenshot-20260222-222215-Google.jpg",coffee:"https://i.postimg.cc/W4JBWY9q/Screenshot-20260222-222551-Facebook.jpg",chicken:"https://i.postimg.cc/FRNTyT8c/Screenshot-20260222-222534-Facebook.jpg",sandwich:"https://i.postimg.cc/5tc70431/Screenshot-20260222-222524-Facebook.jpg",cookies1:"https://i.postimg.cc/5y9kVsm0/Screenshot-20260222-222512-Facebook.jpg",cookies2:"https://i.postimg.cc/KvHp6r3z/Screenshot-20260222-222515-Facebook.jpg",cookies3:"https://i.postimg.cc/y83psg00/Screenshot-20260222-222518-Facebook.jpg",promise:"https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=600&q=80",about1:"https://i.postimg.cc/zvPp18vN/Screenshot-20260222-222431-Facebook.jpg",about2:"https://i.postimg.cc/fTT0BMg8/Screenshot-20260222-222215-Google.jpg",cake1:"https://i.postimg.cc/ryY9syV5/Screenshot-20260222-222059-Facebook.png",cake2:"https://i.postimg.cc/tCKtdrVP/Screenshot-20260222-222107-Facebook.png",cake3:"https://i.postimg.cc/mg73mQQq/Screenshot-20260222-222030-Facebook.png",cake4:"https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80",parallax1:"https://images.unsplash.com/photo-1504400739660-23c4cfae2e9b?w=1200&q=70",parallax2:"https://images.unsplash.com/photo-1486427944544-d2c246c4df14?w=1200&q=70",ctaBg:"https://i.postimg.cc/fTT0BMg8/Screenshot-20260222-222215-Google.jpg",cakeBg:"https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1200&q=70"};
+  </script>
+  <style>
+    :root{--primary:#c8956c;--pr:200,149,108;--primary-dark:#a87550;--primary-light:#e8cdb5;--primary-lighter:#f3e4d4;--gold:#d4a76a;--gr:212,167,106;--dark:#1a0f08;--dark-2:#2c1810;--dark-3:#3a2418;--cream:#fdf8f3;--cream-2:#f5ede4;--cream-3:#ebe0d3;--text:#4a3728;--text-light:#7a6858;--text-muted:#a89888;--white:#fff;--star:#f4c430;--shadow:0 8px 32px rgba(44,24,16,.1);--shadow-lg:0 20px 50px rgba(44,24,16,.15);--r:16px;--r-lg:24px;--r-full:50px;--ease:cubic-bezier(.4,0,.2,1);--t:all .35s var(--ease);--fh:'Playfair Display',Georgia,serif;--fb:'Poppins',sans-serif;--fc:'Dancing Script',cursive;--fe:'Great Vibes',cursive;--fs:'Cormorant Garamond',serif;--mx:1200px;--sp:120px;--bg:var(--cream);--bgc:var(--white);--bl:rgba(var(--pr),.08)}
+    [data-theme="dark"]{--bg:#0f0a06;--bgc:#1a1208;--cream:#0f0a06;--cream-2:#161009;--cream-3:#1c140c;--text:#e0d0c0;--text-light:#b0a090;--text-muted:#706050;--white:#1a1208;--dark:#fdf8f3;--dark-2:#f0e4d6;--dark-3:#e0d0c0;--bl:rgba(var(--pr),.12);--shadow:0 8px 32px rgba(0,0,0,.3)}
+    [data-theme="dark"] .navbar.scrolled{background:rgba(15,10,6,.95)}
+    [data-theme="dark"] .footer{background:#060402}
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:80px}
+    body{font-family:var(--fb);color:var(--text);background:var(--bg);overflow-x:hidden;-webkit-font-smoothing:antialiased;line-height:1.6;transition:background .4s,color .4s}
+    h1,h2,h3,h4{font-family:var(--fh);font-weight:700;line-height:1.2}
+    a{text-decoration:none;color:inherit;transition:color .3s}
+    img{max-width:100%;display:block}
+    ul{list-style:none}
+    button,input{font-family:var(--fb);border:none;outline:none}
+    ::selection{background:var(--primary);color:#fff}
+    ::-webkit-scrollbar{width:6px}
+    ::-webkit-scrollbar-track{background:var(--dark)}
+    ::-webkit-scrollbar-thumb{background:var(--primary);border-radius:3px}
+
+    /* PROGRESS */
+    .scroll-prog{position:fixed;top:0;left:0;height:3px;z-index:100001;width:0%;background:linear-gradient(90deg,var(--primary),var(--gold));box-shadow:0 0 8px rgba(var(--pr),.4)}
+
+    /* PRELOADER */
+    .preloader{position:fixed;inset:0;background:var(--dark);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999999;transition:opacity .8s,visibility .8s}
+    .preloader.hidden{opacity:0;visibility:hidden}
+    .pre-logo{width:80px;height:80px;border-radius:50%;object-fit:cover;border:2px solid rgba(var(--pr),.3);margin-bottom:24px;animation:pf 2s ease infinite}
+    @keyframes pf{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .pre-name{font-family:var(--fh);color:var(--primary);font-size:1.3rem;letter-spacing:3px;margin-bottom:6px;opacity:0;animation:fi .6s ease .2s forwards}
+    .pre-sub{font-family:var(--fc);color:rgba(var(--pr),.6);font-size:.95rem;margin-bottom:24px;opacity:0;animation:fi .6s ease .4s forwards}
+    @keyframes fi{to{opacity:1}}
+    .pre-dots{display:flex;gap:8px;opacity:0;animation:fi .6s ease .6s forwards}
+    .pre-dots span{width:7px;height:7px;border-radius:50%;background:rgba(var(--pr),.3);animation:pd 1.2s ease infinite}
+    .pre-dots span:nth-child(2){animation-delay:.1s}.pre-dots span:nth-child(3){animation-delay:.2s}.pre-dots span:nth-child(4){animation-delay:.3s}
+    @keyframes pd{0%,80%,100%{background:rgba(var(--pr),.3);transform:scale(.8)}40%{background:var(--primary);transform:scale(1.2)}}
+
+    /* THEME */
+    .theme-tog{position:fixed;top:50%;right:0;transform:translateY(-50%);z-index:9000;display:flex;flex-direction:column;gap:6px;background:rgba(var(--pr),.1);padding:8px 6px;border-radius:14px 0 0 14px;border:1px solid rgba(var(--pr),.12);border-right:none}
+    .th-btn{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(var(--pr),.08);color:var(--primary);font-size:.85rem;transition:var(--t);border:none;cursor:pointer}
+    .th-btn:hover,.th-btn.active{background:var(--primary);color:var(--dark)}
+
+    /* NAV */
+    .navbar{position:fixed;top:0;left:0;width:100%;padding:16px 5%;display:flex;justify-content:space-between;align-items:center;z-index:5000;transition:var(--t)}
+    .navbar.scrolled{background:rgba(26,15,8,.92);padding:10px 5%;box-shadow:0 4px 20px rgba(0,0,0,.2);border-bottom:1px solid rgba(var(--pr),.08)}
+    .nav-logo{display:flex;align-items:center;gap:12px;z-index:5001}
+    .nav-logo-img{height:44px;width:44px;border-radius:50%;object-fit:cover;border:2px solid rgba(var(--pr),.4);transition:var(--t)}
+    .navbar.scrolled .nav-logo-img{height:38px;width:38px}
+    .nav-txt{display:flex;flex-direction:column}
+    .nav-txt .n1{font-family:var(--fh);font-size:1.1rem;font-weight:700;color:#fff;line-height:1.2}
+    .nav-txt .n2{font-family:var(--fc);font-size:.8rem;color:var(--primary)}
+    .nav-links{display:flex;gap:24px;align-items:center}
+    .nav-links li a{color:rgba(255,255,255,.8);font-weight:500;font-size:.82rem;text-transform:uppercase;letter-spacing:1.8px;padding:8px 0;position:relative}
+    .nav-links li a::after{content:'';position:absolute;bottom:0;left:50%;width:0;height:2px;background:var(--primary);transition:all .3s;transform:translateX(-50%)}
+    .nav-links li a:hover{color:var(--primary)}
+    .nav-links li a:hover::after{width:100%}
+    .nav-order{background:linear-gradient(135deg,var(--primary),var(--gold))!important;color:var(--dark)!important;padding:10px 22px!important;border-radius:var(--r-full)!important;font-weight:700!important;box-shadow:0 4px 16px rgba(var(--pr),.3)}
+    .nav-order::after{display:none!important}
+    .nav-order:hover{transform:translateY(-2px)!important;box-shadow:0 6px 24px rgba(var(--pr),.45)!important}
+    .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;z-index:5002}
+    .hamburger span{width:26px;height:2px;background:#fff;border-radius:2px;transition:var(--t)}
+    .hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+    .hamburger.active span:nth-child(2){opacity:0}
+    .hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+
+    /* HERO */
+    .hero{height:100vh;min-height:650px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+    .hero-bg{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.05);animation:hk 25s ease infinite alternate}
+    @keyframes hk{0%{transform:scale(1.05)}100%{transform:scale(1.12)}}
+    .hero-ov{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(26,15,8,.7) 0%,rgba(20,12,6,.3) 40%,rgba(26,15,8,.85) 100%)}
+    .hero-particles{position:absolute;inset:0;z-index:2;overflow:hidden;pointer-events:none}
+    .particle{position:absolute;border-radius:50%;opacity:0;animation:fp linear infinite}
+    .p-glow{background:rgba(var(--gr),.4);box-shadow:0 0 6px rgba(var(--gr),.3)}
+    .p-dot{background:rgba(255,255,255,.15)}
+    @keyframes fp{0%{transform:translateY(100vh);opacity:0}10%{opacity:.8}90%{opacity:.4}100%{transform:translateY(-10vh);opacity:0}}
+
+    .hero-content{position:relative;z-index:5;max-width:900px;padding:0 20px;text-align:center;color:#fff}
+    .hero-label{display:inline-flex;align-items:center;gap:8px;background:rgba(var(--pr),.1);border:1px solid rgba(var(--pr),.2);padding:8px 24px;border-radius:var(--r-full);font-size:.75rem;letter-spacing:3.5px;text-transform:uppercase;color:var(--primary-light);margin-bottom:22px;animation:fd .8s ease .3s both}
+    @keyframes fd{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
+    .hero-logo-img{width:95px;height:95px;border-radius:50%;margin:0 auto 24px;border:3px solid rgba(var(--pr),.3);object-fit:cover;box-shadow:0 0 40px rgba(var(--pr),.2);animation:fu .8s ease .5s both}
+    @keyframes fu{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+    .hero h1{font-size:3.8rem;font-weight:900;line-height:1.08;margin-bottom:8px;background:linear-gradient(135deg,#fff,var(--primary-light),#fff);background-size:300%;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:fu .8s ease .7s both}
+    .hero-elegant{font-family:var(--fe);font-size:2.2rem;color:var(--primary);display:block;margin-bottom:14px;animation:fu .8s ease .9s both;text-shadow:0 0 30px rgba(var(--pr),.2)}
+    .hero-typewriter{font-size:.88rem;font-weight:300;letter-spacing:3.5px;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:32px;min-height:26px;animation:fu .8s ease 1s both}
+    .tw-text{border-right:2px solid var(--primary);padding-right:4px;animation:bk .8s step-end infinite}
+    @keyframes bk{0%,100%{border-color:var(--primary)}50%{border-color:transparent}}
+    .hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;animation:fu .8s ease 1.2s both}
+    .btn{padding:14px 30px;border-radius:var(--r-full);font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;cursor:pointer;transition:var(--t);border:none;display:inline-flex;align-items:center;gap:9px;position:relative;overflow:hidden}
+    .btn-primary{background:linear-gradient(135deg,var(--primary),var(--gold));color:var(--dark);box-shadow:0 6px 24px rgba(var(--pr),.3)}
+    .btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 36px rgba(var(--pr),.45)}
+    .btn-glass{background:rgba(255,255,255,.07);color:#fff;border:1.5px solid rgba(255,255,255,.18)}
+    .btn-glass:hover{background:rgba(255,255,255,.14);transform:translateY(-3px)}
+    .btn-call{background:linear-gradient(135deg,#2196F3,#1976D2)!important;color:#fff!important;box-shadow:0 6px 20px rgba(33,150,243,.3)}
+    .btn-call:hover{box-shadow:0 12px 32px rgba(33,150,243,.45)!important;transform:translateY(-3px)}
+    .hero-scroll{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);z-index:5;display:flex;flex-direction:column;align-items:center;gap:8px;animation:fu .8s ease 1.4s both}
+    .hero-scroll span{font-size:.65rem;letter-spacing:4px;text-transform:uppercase;color:rgba(255,255,255,.25)}
+    .scr-line{width:1px;height:40px;position:relative;overflow:hidden}
+    .scr-line::before{content:'';position:absolute;top:-100%;left:0;width:100%;height:100%;background:linear-gradient(to bottom,transparent,var(--primary));animation:sa 1.8s ease infinite}
+    @keyframes sa{0%{top:-100%}100%{top:100%}}
+
+    /* MARQUEE */
+    .marquee{background:#1a0f08;padding:16px 0;overflow:hidden;position:relative;border-top:1px solid rgba(var(--pr),.1);border-bottom:1px solid rgba(var(--pr),.1)}
+    .marquee::before,.marquee::after{content:'';position:absolute;top:0;width:100px;height:100%;z-index:2}
+    .marquee::before{left:0;background:linear-gradient(90deg,#1a0f08,transparent)}
+    .marquee::after{right:0;background:linear-gradient(-90deg,#1a0f08,transparent)}
+    .m-track{display:flex;gap:40px;animation:ms 30s linear infinite;white-space:nowrap}
+    .m-item{display:flex;align-items:center;gap:12px;color:rgba(var(--pr),.7);font-family:var(--fh);font-size:1rem;font-style:italic;flex-shrink:0}
+    .m-dot{width:5px;height:5px;background:var(--primary);border-radius:50%}
+    @keyframes ms{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+    /* SECTIONS */
+    .section{padding:var(--sp) 5%;position:relative;overflow:hidden}
+    .sh{text-align:center;margin-bottom:70px}
+    .s-badge{display:inline-flex;align-items:center;gap:7px;background:linear-gradient(135deg,var(--primary-lighter),var(--cream-2));color:var(--primary-dark);padding:7px 22px;border-radius:var(--r-full);font-size:.75rem;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:16px;border:1px solid rgba(var(--pr),.12)}
+    [data-theme="dark"] .s-badge{background:rgba(var(--pr),.1)}
+    .sh h2{font-size:2.8rem;color:var(--dark-2);margin-bottom:10px}
+    .sh h2 em{font-style:italic;color:var(--primary)}
+    .s-div{display:flex;align-items:center;justify-content:center;gap:10px;margin:18px auto}
+    .s-div .sl{width:45px;height:2px;background:var(--primary)}
+    .s-div .sd{width:8px;height:8px;background:var(--primary);transform:rotate(45deg);border-radius:2px}
+    .sh p{font-size:1.02rem;color:var(--text-light);max-width:580px;margin:0 auto;line-height:1.85}
+
+    /* FOOD */
+    .food-show{background:var(--bg)}
+    .food-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;max-width:var(--mx);margin:0 auto}
+    .food-card{border-radius:var(--r-lg);overflow:hidden;background:var(--bgc);box-shadow:var(--shadow);transition:transform .35s var(--ease),box-shadow .35s var(--ease);border:1px solid var(--bl)}
+    .food-card:hover{transform:translateY(-10px);box-shadow:var(--shadow-lg)}
+    .food-img{height:260px;overflow:hidden;position:relative}
+    .food-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease)}
+    .food-card:hover .food-img img{transform:scale(1.08)}
+    .food-img-ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(26,15,8,.4) 0%,transparent 50%);opacity:0;transition:opacity .4s}
+    .food-card:hover .food-img-ov{opacity:1}
+    .food-ribbon{position:absolute;top:16px;right:16px;background:linear-gradient(135deg,var(--primary),var(--gold));color:var(--dark);padding:5px 14px;border-radius:var(--r-full);font-size:.7rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;z-index:2}
+    .food-body{padding:24px 22px}
+    .food-body h3{font-size:1.25rem;color:var(--dark-2);margin-bottom:6px}
+    .food-body .food-cursive{font-family:var(--fc);color:var(--primary);font-size:.95rem;margin-bottom:10px;display:block}
+    .food-body p{font-size:.9rem;color:var(--text-light);line-height:1.8}
+    .food-divider{width:36px;height:2px;background:linear-gradient(90deg,var(--primary),var(--gold));margin:12px 0}
+
+    /* CAKE — OPTIMIZED, NO LAG */
+    .cake-sec{position:relative;overflow:hidden;background:#1a0f08}
+    .cake-bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.2}
+    .cake-ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(26,15,8,.98) 0%,rgba(30,18,10,.9) 50%,rgba(26,15,8,.98) 100%)}
+    .cake-inner{position:relative;z-index:2;max-width:var(--mx);margin:0 auto;padding:var(--sp) 5%}
+    .cake-header{text-align:center;margin-bottom:60px;color:#fff}
+    .cake-header .s-badge{background:rgba(var(--pr),.1);color:var(--primary-light);border-color:rgba(var(--pr),.15)}
+    .cake-header h2{color:#fff;font-size:3rem}
+    .cake-header .cake-sub{font-family:var(--fe);font-size:1.8rem;color:var(--primary);margin-top:8px;display:block}
+    .cake-header p{color:rgba(255,255,255,.5)}
+    .cake-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}
+    .cake-card{border-radius:var(--r-lg);overflow:hidden;background:rgba(255,255,255,.04);border:1px solid rgba(var(--pr),.1);transition:transform .4s var(--ease),box-shadow .4s var(--ease),border-color .4s var(--ease)}
+    .cake-card:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(0,0,0,.3);border-color:rgba(var(--pr),.25)}
+    .cake-img{height:300px;overflow:hidden;position:relative}
+    .cake-img img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease)}
+    .cake-card:hover .cake-img img{transform:scale(1.05)}
+    .cake-img-grad{position:absolute;inset:0;background:linear-gradient(to top,rgba(26,15,8,.6) 0%,transparent 50%);pointer-events:none}
+    .cake-tag{position:absolute;top:16px;left:16px;background:linear-gradient(135deg,var(--primary),var(--gold));color:var(--dark);padding:7px 18px;border-radius:var(--r-full);font-size:.7rem;font-weight:700;letter-spacing:1.8px;text-transform:uppercase;z-index:2}
+    .cake-order-btn{position:absolute;bottom:18px;right:18px;z-index:2;background:var(--primary);color:#fff;padding:10px 20px;border-radius:var(--r-full);font-size:.76rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;transition:transform .3s var(--ease),opacity .3s var(--ease);display:flex;align-items:center;gap:7px;opacity:0;transform:translateY(10px)}
+    .cake-card:hover .cake-order-btn{opacity:1;transform:translateY(0)}
+    .cake-order-btn:hover{background:var(--gold)}
+    .cake-body{padding:28px;color:#fff}
+    .cake-body h3{font-size:1.3rem;margin-bottom:5px;transition:color .3s}
+    .cake-card:hover .cake-body h3{color:var(--primary-light)}
+    .cake-body .cake-cursive{font-family:var(--fc);color:var(--primary);font-size:1rem;margin-bottom:12px;display:block}
+    .cake-body p{font-size:.9rem;color:rgba(255,255,255,.5);line-height:1.85}
+    .cake-feats{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+    .cake-feat{display:flex;align-items:center;gap:5px;font-size:.75rem;color:rgba(var(--pr),.7);padding:4px 10px;background:rgba(var(--pr),.06);border-radius:var(--r-full);border:1px solid rgba(var(--pr),.08);transition:color .3s,background .3s}
+    .cake-card:hover .cake-feat{color:var(--primary-light);background:rgba(var(--pr),.1)}
+    .cake-feat i{font-size:.6rem;color:var(--primary)}
+    .cake-cta{text-align:center;margin-top:60px}
+    .cake-cta p{color:rgba(255,255,255,.4);font-size:1.02rem;margin-bottom:24px;font-family:var(--fs);font-style:italic;line-height:1.8}
+
+    /* ABOUT */
+    .about{background:var(--bg)}
+    .about-wrap{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center;max-width:var(--mx);margin:0 auto}
+    .about-imgs{position:relative;height:520px}
+    .a-img1{position:absolute;top:0;left:0;width:70%;border-radius:var(--r-lg);box-shadow:var(--shadow-lg);overflow:hidden;z-index:2}
+    .a-img1 img{width:100%;height:350px;object-fit:cover;transition:transform .6s var(--ease)}
+    .a-img1:hover img{transform:scale(1.05)}
+    .a-img2{position:absolute;bottom:0;right:0;width:60%;border-radius:var(--r-lg);box-shadow:var(--shadow-lg);overflow:hidden;z-index:3;border:5px solid var(--bg)}
+    .a-img2 img{width:100%;height:270px;object-fit:cover;transition:transform .6s var(--ease)}
+    .a-img2:hover img{transform:scale(1.05)}
+    .a-badge{position:absolute;top:45%;left:50%;transform:translate(-50%,-50%);z-index:5;background:linear-gradient(135deg,var(--primary),var(--gold));color:var(--dark);width:115px;height:115px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 8px 28px rgba(var(--pr),.35);animation:bf 3s ease infinite}
+    @keyframes bf{0%,100%{transform:translate(-50%,-50%) translateY(0)}50%{transform:translate(-50%,-50%) translateY(-8px)}}
+    .a-badge .bi{font-size:1.3rem;font-weight:900;font-family:var(--fh)}
+    .a-badge .bt{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;text-align:center;line-height:1.3}
+    .about-text .at-sub{font-family:var(--fc);font-size:1.4rem;color:var(--primary);margin-bottom:6px}
+    .about-text h2{font-size:2.5rem;color:var(--dark-2);margin-bottom:20px;line-height:1.15}
+    .about-text h2 em{font-style:italic;color:var(--primary)}
+    .about-text p{font-size:.95rem;line-height:1.9;color:var(--text-light);margin-bottom:14px}
+    .about-text p:first-of-type::first-letter{font-family:var(--fh);font-size:3.2rem;font-weight:900;color:var(--primary);float:left;margin:0 10px 0 0;line-height:1}
+    .a-feats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:24px}
+    .a-feat{display:flex;align-items:center;gap:10px;padding:12px 14px;background:var(--cream-2);border-radius:8px;transition:var(--t);border:1px solid transparent}
+    .a-feat:hover{background:var(--primary-lighter);transform:translateX(5px);border-color:rgba(var(--pr),.15)}
+    .a-feat i{color:var(--primary);font-size:.95rem}
+    .a-feat span{font-weight:600;font-size:.85rem;color:var(--dark-3)}
+
+    /* COUNTER */
+    .counter{padding:80px 5%;position:relative;overflow:hidden;background:#1a0f08}
+    .cnt-bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.2}
+    .cnt-ov{position:absolute;inset:0;background:rgba(26,15,8,.85)}
+    .cnt-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;max-width:950px;margin:0 auto;text-align:center;position:relative;z-index:2}
+    .cnt-item{padding:20px 12px}
+    .cnt-ico{width:52px;height:52px;border-radius:50%;border:2px solid rgba(var(--pr),.25);display:flex;align-items:center;justify-content:center;margin:0 auto 12px;transition:var(--t)}
+    .cnt-item:hover .cnt-ico{background:var(--primary);border-color:var(--primary);transform:scale(1.08)}
+    .cnt-ico i{font-size:1.1rem;color:var(--primary);transition:color .3s}
+    .cnt-item:hover .cnt-ico i{color:#fff}
+    .cnt-num{font-family:var(--fh);font-size:3rem;font-weight:900;color:var(--primary);line-height:1;margin-bottom:4px}
+    .cnt-num .suf{font-size:1.8rem}
+    .cnt-label{font-size:.78rem;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:2px}
+
+    /* PARALLAX — NO FIXED, NO LAG */
+    .prlx{position:relative;padding:120px 5%;text-align:center;color:#fff;overflow:hidden}
+    .prlx-bg{position:absolute;inset:0;background-size:cover;background-position:center}
+    .prlx-ov{position:absolute;inset:0;background:rgba(26,15,8,.88)}
+    .prlx-inner{position:relative;z-index:2;max-width:750px;margin:0 auto}
+    .prlx-inner .qm{font-size:4rem;color:rgba(var(--pr),.3);line-height:1;margin-bottom:16px;font-family:var(--fs)}
+    .prlx-inner blockquote{font-family:var(--fs);font-size:1.8rem;font-style:italic;line-height:1.6;margin-bottom:24px;color:rgba(255,255,255,.88)}
+    .prlx-inner .qa{font-family:var(--fc);font-size:1.3rem;color:var(--primary)}
+
+    /* REVIEWS */
+    .reviews{background:var(--white);overflow:hidden}
+    .rev-slider{max-width:750px;margin:0 auto;position:relative;min-height:260px}
+    .rev-slide{display:none;text-align:center;padding:16px;animation:ri .5s ease}
+    .rev-slide.active{display:block}
+    @keyframes ri{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    .rev-stars{color:var(--star);font-size:1.1rem;margin-bottom:16px;letter-spacing:4px}
+    .rev-text{font-family:var(--fs);font-size:1.35rem;font-style:italic;color:var(--dark-3);line-height:1.7;margin-bottom:20px}
+    .rev-author{display:flex;align-items:center;justify-content:center;gap:12px}
+    .rev-avatar{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--gold));display:flex;align-items:center;justify-content:center;color:#fff;font-family:var(--fh);font-size:1.1rem;font-weight:700}
+    .rev-info h4{font-size:.95rem;color:var(--dark-2)}
+    .rev-info span{font-size:.8rem;color:var(--text-light)}
+    .rev-dots{display:flex;justify-content:center;gap:8px;margin-top:24px}
+    .rev-dot{width:10px;height:10px;border-radius:50%;background:var(--cream-3);cursor:pointer;transition:var(--t)}
+    .rev-dot.active{background:var(--primary);transform:scale(1.3)}
+
+    /* FAQ */
+    .faq{background:var(--cream-2)}
+    .faq-list{max-width:750px;margin:0 auto;display:flex;flex-direction:column;gap:10px}
+    .faq-item{background:var(--bgc);border-radius:var(--r);overflow:hidden;border:1px solid var(--bl);transition:var(--t)}
+    .faq-q{padding:18px 24px;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
+    .faq-q h4{font-size:.98rem;color:var(--dark-2);font-weight:600;font-family:var(--fb)}
+    .faq-ico{width:32px;height:32px;border-radius:50%;background:var(--primary-lighter);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:var(--t)}
+    .faq-item.open .faq-ico{background:var(--primary);transform:rotate(45deg)}
+    .faq-ico i{font-size:.75rem;color:var(--primary-dark);transition:color .3s}
+    .faq-item.open .faq-ico i{color:#fff}
+    .faq-a{max-height:0;overflow:hidden;transition:max-height .35s var(--ease)}
+    .faq-item.open .faq-a{max-height:250px}
+    .faq-a p{padding:0 24px 18px;font-size:.9rem;color:var(--text-light);line-height:1.8}
+
+    /* SERVICES */
+    .services{background:var(--bg)}
+    .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:var(--mx);margin:0 auto}
+    .svc-card{background:var(--bgc);border-radius:var(--r-lg);padding:32px 26px;box-shadow:var(--shadow);border:1px solid var(--bl);transition:transform .35s var(--ease),box-shadow .35s var(--ease);position:relative;overflow:hidden}
+    .svc-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--primary),var(--gold));opacity:0;transition:opacity .3s}
+    .svc-card:hover{transform:translateY(-6px);box-shadow:var(--shadow-lg)}
+    .svc-card:hover::before{opacity:1}
+    .svc-head{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+    .svc-icon{width:50px;height:50px;border-radius:14px;background:rgba(var(--pr),.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:var(--t)}
+    .svc-card:hover .svc-icon{background:linear-gradient(135deg,var(--primary),var(--gold))}
+    .svc-icon i{font-size:1.2rem;color:var(--primary);transition:color .3s}
+    .svc-card:hover .svc-icon i{color:#fff}
+    .svc-head h3{font-size:1.1rem;color:var(--dark-2);font-weight:700}
+    .svc-head h3 span{display:block;font-family:var(--fc);font-size:.85rem;color:var(--primary);font-weight:400;margin-top:2px}
+    .svc-tags{display:flex;flex-wrap:wrap;gap:8px}
+    .svc-tag{display:inline-flex;align-items:center;gap:7px;padding:9px 16px;background:var(--cream-2);border-radius:var(--r-full);font-size:.82rem;font-weight:500;color:var(--dark-3);transition:var(--t);border:1px solid transparent}
+    .svc-tag:hover{background:var(--primary-lighter);border-color:rgba(var(--pr),.15);transform:translateY(-2px)}
+    .svc-tag i{font-size:.7rem;color:var(--primary)}
+    .svc-tag.accent{background:rgba(var(--pr),.08);border-color:rgba(var(--pr),.1)}
+    [data-theme="dark"] .svc-tag{background:rgba(var(--pr),.06)}
+    [data-theme="dark"] .svc-tag:hover{background:rgba(var(--pr),.14)}
+
+    /* CONTACT */
+    .contact{background:var(--bg)}
+    .contact-wrap{display:grid;grid-template-columns:1fr 1.3fr;gap:44px;max-width:var(--mx);margin:0 auto}
+    .contact-left{display:flex;flex-direction:column;gap:18px}
+    .ci h3{font-family:var(--fc);font-size:1.3rem;color:var(--primary);margin-bottom:3px}
+    .ci h2{font-size:2rem;color:var(--dark-2);margin-bottom:8px}
+    .ci p{color:var(--text-light);line-height:1.75}
+    .c-card{display:flex;gap:14px;align-items:center;padding:18px 20px;background:var(--bgc);border-radius:var(--r);transition:transform .3s var(--ease),box-shadow .3s var(--ease);border:1px solid var(--bl)}
+    .c-card:hover{transform:translateX(6px);box-shadow:var(--shadow-lg)}
+    .c-card-ico{width:46px;height:46px;border-radius:12px;background:linear-gradient(135deg,var(--primary),var(--gold));display:flex;align-items:center;justify-content:center;flex-shrink:0}
+    .c-card-ico i{font-size:1rem;color:#fff}
+    .c-card h4{font-size:.92rem;margin-bottom:2px;color:var(--dark-2)}
+    .c-card p,.c-card a{font-size:.88rem;color:var(--text-light);line-height:1.6}
+    .c-card a:hover{color:var(--primary)}
+    .map-box{border-radius:var(--r-lg);overflow:hidden;box-shadow:var(--shadow-lg);min-height:100%}
+    .map-box iframe{width:100%;height:100%;min-height:420px;border:none}
+
+    /* CTA */
+    .cta{position:relative;padding:100px 5%;text-align:center;color:#fff;overflow:hidden;background:#1a0f08}
+    .cta-bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.25}
+    .cta-ov{position:absolute;inset:0;background:rgba(26,15,8,.85)}
+    .cta-inner{position:relative;z-index:2;max-width:700px;margin:0 auto}
+    .cta-inner h2{font-size:2.8rem;margin-bottom:14px}
+    .cta-inner h2 em{color:var(--primary);font-style:italic}
+    .cta-inner p{font-size:1.02rem;color:rgba(255,255,255,.55);margin-bottom:32px;line-height:1.85}
+    .cta-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+
+    /* FOOTER */
+    .footer{background:#0a0604;color:rgba(255,255,255,.4);padding:55px 5% 24px}
+    .f-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:32px;max-width:var(--mx);margin:0 auto 36px}
+    .f-brand .f-logo{font-family:var(--fh);font-size:1.3rem;color:var(--primary);font-weight:700;margin-bottom:3px}
+    .f-brand .f-sub{font-family:var(--fc);color:var(--gold);font-size:.85rem;margin-bottom:12px}
+    .f-brand p{font-size:.84rem;line-height:1.8;margin-bottom:18px}
+    .f-socials{display:flex;gap:8px}
+    .f-socials a{width:38px;height:38px;border-radius:50%;border:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.4);font-size:.85rem;transition:var(--t)}
+    .f-socials a:hover{background:var(--primary);border-color:var(--primary);color:#fff;transform:translateY(-3px)}
+    .f-col h4{font-size:.88rem;color:#fff;margin-bottom:18px;text-transform:uppercase;letter-spacing:2px;font-family:var(--fb);font-weight:600}
+    .f-col ul li{margin-bottom:9px}
+    .f-col ul li a{font-size:.84rem}
+    .f-col ul li a:hover{color:var(--primary);padding-left:4px}
+    .f-col ul li i{margin-right:7px;color:var(--primary);font-size:.7rem}
+    .f-bottom{border-top:1px solid rgba(255,255,255,.05);padding-top:20px;text-align:center;font-size:.78rem;max-width:var(--mx);margin:0 auto}
+
+    /* FLOATS */
+    .call-float{position:fixed;bottom:22px;right:22px;width:58px;height:58px;background:linear-gradient(135deg,var(--primary),var(--gold));border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(var(--pr),.35);z-index:4999;transition:transform .3s var(--ease)}
+    .call-float::before{content:'';position:absolute;inset:-4px;border-radius:50%;border:2px solid rgba(var(--pr),.25);animation:cp 2s infinite}
+    @keyframes cp{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.15);opacity:0}}
+    .call-float:hover{transform:scale(1.08)}
+    .call-float i{font-size:1.4rem;color:#fff}
+    .btt{position:fixed;bottom:22px;left:22px;width:42px;height:42px;background:var(--dark-2);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--primary);font-size:.9rem;z-index:4999;opacity:0;visibility:hidden;transition:var(--t);cursor:pointer;border:1px solid rgba(var(--pr),.15)}
+    .btt.show{opacity:1;visibility:visible}
+    .btt:hover{background:var(--primary);color:#fff;transform:translateY(-4px)}
+
+    /* ===== MOBILE RESPONSIVE ===== */
+    @media(max-width:1024px){
+      :root{--sp:90px}
+      .food-grid,.cake-grid{grid-template-columns:repeat(2,1fr)}
+      .about-wrap,.contact-wrap{grid-template-columns:1fr}
+      .about-imgs{height:420px}
+      .f-grid{grid-template-columns:1fr 1fr}
+      .cnt-grid{grid-template-columns:repeat(2,1fr)}
+      .svc-grid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media(max-width:768px){
+      :root{--sp:60px}
+      .nav-links{position:fixed;top:0;right:-100%;width:80%;max-width:320px;height:100vh;background:rgba(15,10,6,.98);flex-direction:column;justify-content:center;align-items:center;gap:22px;transition:right .4s var(--ease)}
+      .nav-links.open{right:0}
+      .hamburger{display:flex}
+      .hero h1{font-size:2.4rem}
+      .hero-elegant{font-size:1.5rem}
+      .hero-content{padding:0 16px}
+      .hero-logo-img{width:80px;height:80px}
+      .hero-btns{flex-direction:column;align-items:center;gap:10px}
+      .hero-btns .btn{width:100%;max-width:280px;justify-content:center}
+      .food-grid,.cake-grid,.svc-grid{grid-template-columns:1fr;max-width:440px;margin:0 auto}
+      .sh h2{font-size:2rem}
+      .about-text h2{font-size:1.9rem}
+      .about-imgs{height:360px}
+      .a-feats{grid-template-columns:1fr}
+      .prlx-inner blockquote{font-size:1.3rem}
+      .cta-inner h2{font-size:2rem}
+      .f-grid{grid-template-columns:1fr;text-align:center}
+      .f-socials{justify-content:center}
+      .theme-tog{display:none}
+      .cake-header h2{font-size:2.2rem}
+      .cake-header .cake-sub{font-size:1.3rem}
+      .cake-img{height:240px}
+      .food-img{height:220px}
+      .contact-left{gap:14px}
+      .cnt-grid{gap:20px}
+      .cnt-num{font-size:2.4rem}
+      .marquee{padding:12px 0}
+      .m-item{font-size:.88rem}
+      .prlx{padding:80px 5%}
+      .counter{padding:60px 5%}
+      .section{padding:60px 5%}
+      .sh{margin-bottom:50px}
+    }
+    @media(max-width:480px){
+      .hero h1{font-size:1.9rem}
+      .hero-elegant{font-size:1.15rem}
+      .hero-logo-img{width:70px;height:70px}
+      .hero-label{font-size:.68rem;padding:6px 18px;letter-spacing:2.5px}
+      .btn{padding:12px 22px;font-size:.8rem}
+      .sh h2{font-size:1.65rem}
+      .sh p{font-size:.92rem}
+      .cake-img{height:200px}
+      .food-img{height:190px}
+      .food-body,.cake-body{padding:20px 18px}
+      .food-body h3,.cake-body h3{font-size:1.15rem}
+      .about-text h2{font-size:1.65rem}
+      .about-text p:first-of-type::first-letter{font-size:2.6rem}
+      .a-img1 img{height:260px}
+      .a-img2 img{height:200px}
+      .about-imgs{height:300px}
+      .a-badge{width:95px;height:95px}
+      .a-badge .bi{font-size:1.1rem}
+      .a-badge .bt{font-size:.58rem}
+      .cta-inner h2{font-size:1.75rem}
+      .cnt-num{font-size:2rem}
+      .cnt-label{font-size:.7rem;letter-spacing:1.5px}
+      .prlx-inner blockquote{font-size:1.15rem}
+      .prlx-inner .qm{font-size:3rem}
+      .rev-text{font-size:1.15rem}
+      .svc-card{padding:24px 20px}
+      .f-brand .f-logo{font-size:1.15rem}
+      .call-float{width:52px;height:52px;bottom:18px;right:18px}
+      .call-float i{font-size:1.2rem}
+      .btt{width:38px;height:38px;bottom:18px;left:18px}
+      .nav-logo-img{height:38px;width:38px}
+      .nav-txt .n1{font-size:1rem}
+      .nav-txt .n2{font-size:.72rem}
+    }
+    @media(max-width:360px){
+      .hero h1{font-size:1.65rem}
+      .hero-elegant{font-size:1rem}
+      .hero-logo-img{width:60px;height:60px}
+      .hero-label{font-size:.62rem;padding:5px 14px}
+      .sh h2{font-size:1.45rem}
+      .btn{padding:11px 18px;font-size:.76rem}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="scroll-prog" id="scrollProg"></div>
+
+  <div class="theme-tog">
+    <button class="th-btn active" id="lightBtn" onclick="setTheme('light')"><i class="fas fa-sun"></i></button>
+    <button class="th-btn" id="darkBtn" onclick="setTheme('dark')"><i class="fas fa-moon"></i></button>
+  </div>
+
+  <div class="preloader" id="preloader">
+    <img class="pre-logo" id="preLogo" alt="Loading"/>
+    <div class="pre-name">Jacks Bakehouse</div>
+    <div class="pre-sub">Preparing something extraordinary...</div>
+    <div class="pre-dots"><span></span><span></span><span></span><span></span></div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo"><img class="nav-logo-img" id="navLogo" alt="Logo"/><div class="nav-txt"><span class="n1">Jacks Country</span><span class="n2">Bakehouse & Cafe</span></div></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" onclick="closeMenu()">Home</a></li>
+      <li><a href="#about" onclick="closeMenu()">Story</a></li>
+      <li><a href="#food" onclick="closeMenu()">Our Bakes</a></li>
+      <li><a href="#cakes" onclick="closeMenu()">Cakes</a></li>
+      <li><a href="#services" onclick="closeMenu()">Services</a></li>
+      <li><a href="#faq" onclick="closeMenu()">FAQ</a></li>
+      <li><a href="#contact" onclick="closeMenu()">Visit</a></li>
+      <li><a href="tel:+61351444994" class="nav-order" onclick="closeMenu()"><i class="fas fa-phone-alt"></i> Order</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-bg" id="heroBg"></div><div class="hero-ov"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-label"><i class="fas fa-wheat-awn"></i> Est. in Sale, Victoria, Australia</div>
+      <img class="hero-logo-img" id="heroLogo" alt="Logo"/>
+      <h1>Jacks Country<br>Bakehouse Cafe</h1>
+      <span class="hero-elegant">Where every bite tells a story</span>
+      <div class="hero-typewriter"><span class="tw-text" id="typewriter"></span></div>
+      <div class="hero-btns">
+        <a href="#food" class="btn btn-primary"><i class="fas fa-camera"></i> Our Creations</a>
+        <a href="tel:+61351444994" class="btn btn-call"><i class="fas fa-phone-alt"></i> Call To Order</a>
+        <a href="#cakes" class="btn btn-glass"><i class="fas fa-cake-candles"></i> Custom Cakes</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><span>Scroll</span><div class="scr-line"></div></div>
+  </section>
+
+  <div class="marquee"><div class="m-track">
+    <div class="m-item"><span class="m-dot"></span>Flat White Coffee</div><div class="m-item"><span class="m-dot"></span>Custom Design Cakes</div><div class="m-item"><span class="m-dot"></span>Gourmet Sandwiches</div><div class="m-item"><span class="m-dot"></span>Crispy Confit Chicken</div><div class="m-item"><span class="m-dot"></span>Artisan Cookies</div><div class="m-item"><span class="m-dot"></span>Teddy Bear Biscuits</div><div class="m-item"><span class="m-dot"></span>Braided Cookies</div><div class="m-item"><span class="m-dot"></span>Baked With Love</div>
+    <div class="m-item"><span class="m-dot"></span>Flat White Coffee</div><div class="m-item"><span class="m-dot"></span>Custom Design Cakes</div><div class="m-item"><span class="m-dot"></span>Gourmet Sandwiches</div><div class="m-item"><span class="m-dot"></span>Crispy Confit Chicken</div><div class="m-item"><span class="m-dot"></span>Artisan Cookies</div><div class="m-item"><span class="m-dot"></span>Teddy Bear Biscuits</div><div class="m-item"><span class="m-dot"></span>Braided Cookies</div><div class="m-item"><span class="m-dot"></span>Baked With Love</div>
+  </div></div>
+
+  <section class="section food-show" id="food">
+    <div class="sh"><span class="s-badge" data-aos="fade-down"><i class="fas fa-utensils"></i> Our Creations</span><h2 data-aos="fade-up">Taste The <em>Extraordinary</em></h2><div class="s-div" data-aos="fade-up"><div class="sl"></div><div class="sd"></div><div class="sl"></div></div><p data-aos="fade-up">Every dish is a love letter to flavour — handcrafted, fresh, and made to make your day unforgettable.</p></div>
+    <div class="food-grid">
+      <div class="food-card" data-aos="fade-up" data-aos-delay="0"><div class="food-img"><img id="fImg1" alt="Flat White"/><div class="food-img-ov"></div><span class="food-ribbon">Signature</span></div><div class="food-body"><h3>The Perfect Flat White</h3><span class="food-cursive">Australia's iconic coffee, perfected</span><div class="food-divider"></div><p>Velvety microfoam cascading over a rich double shot of premium espresso. Silky smooth, perfectly balanced.</p></div></div>
+      <div class="food-card" data-aos="fade-up" data-aos-delay="100"><div class="food-img"><img id="fImg2" alt="Chicken"/><div class="food-img-ov"></div><span class="food-ribbon">Popular</span></div><div class="food-body"><h3>Crispy Confit Chicken</h3><span class="food-cursive">Slow-cooked, then crisped to golden glory</span><div class="food-divider"></div><p>Slow-cooked for hours until impossibly tender, then finished to golden crackling perfection.</p></div></div>
+      <div class="food-card" data-aos="fade-up" data-aos-delay="200"><div class="food-img"><img id="fImg3" alt="Sandwich"/><div class="food-img-ov"></div><span class="food-ribbon">Bestseller</span></div><div class="food-body"><h3>Gourmet Sandwich</h3><span class="food-cursive">Stacked with love, bursting with flavour</span><div class="food-divider"></div><p>Premium ingredients on freshly baked artisan bread with signature house sauce. Sandwich perfection.</p></div></div>
+      <div class="food-card" data-aos="fade-up" data-aos-delay="0"><div class="food-img"><img id="fImg5" alt="Cookies"/><div class="food-img-ov"></div><span class="food-ribbon">Artisan</span></div><div class="food-body"><h3>Elegant Artisan Cookies</h3><span class="food-cursive">Delicate, beautiful, utterly irresistible</span><div class="food-divider"></div><p>Handcrafted with real butter and vanilla. Golden-baked perfection — almost too beautiful to eat.</p></div></div>
+      <div class="food-card" data-aos="fade-up" data-aos-delay="100"><div class="food-img"><img id="fImg6" alt="Teddy Cookies"/><div class="food-img-ov"></div><span class="food-ribbon">Adorable</span></div><div class="food-body"><h3>Teddy Bear Cookies</h3><span class="food-cursive">Too cute to eat — but you won't resist</span><div class="food-divider"></div><p>Guaranteed to melt hearts before they melt in your mouth! Lovingly shaped, buttery sweet.</p></div></div>
+      <div class="food-card" data-aos="fade-up" data-aos-delay="200"><div class="food-img"><img id="fImg7" alt="Braided Cookies"/><div class="food-img-ov"></div><span class="food-ribbon">Handcrafted</span></div><div class="food-body"><h3>Braided Butter Cookies</h3><span class="food-cursive">Twisted with skill, baked with soul</span><div class="food-divider"></div><p>Hand-braided by our bakers. Rich buttery dough woven into beautiful patterns, baked golden.</p></div></div>
+      <div class="food-card" data-aos="fade-up" style="grid-column:1/-1;max-width:520px;margin:0 auto"><div class="food-img"><img id="fImgPromise" alt="Our Promise"/><div class="food-img-ov"></div><span class="food-ribbon">Our Promise</span></div><div class="food-body" style="text-align:center"><h3>Baked With Heart, Served With Soul</h3><span class="food-cursive">More than a bakery — it's a feeling</span><div class="food-divider" style="margin:12px auto"></div><p>Every morning our ovens glow before dawn. Everything is crafted with love.</p></div></div>
+    </div>
+  </section>
+
+  <section class="prlx"><div class="prlx-bg" id="prlxBg1"></div><div class="prlx-ov"></div><div class="prlx-inner"><div class="qm" data-aos="fade-down">"</div><blockquote data-aos="fade-up">"We don't just bake food — we create moments. Every golden crust, every rich aroma is our way of saying: you deserve something extraordinary today."</blockquote><div class="qa" data-aos="fade-up" data-aos-delay="150">— The Jacks Country Bakehouse Family</div></div></section>
+
+  <section class="cake-sec" id="cakes"><div class="cake-bg" id="cakeBg"></div><div class="cake-ov"></div>
+    <div class="cake-inner">
+      <div class="cake-header"><span class="s-badge" data-aos="fade-down"><i class="fas fa-cake-candles"></i> Custom Cakes</span><h2 data-aos="fade-up">Edible Works of <em>Art</em></h2><span class="cake-sub" data-aos="fade-up" data-aos-delay="100">Designed to take your breath away</span><div class="s-div" data-aos="fade-up"><div class="sl"></div><div class="sd"></div><div class="sl"></div></div><p data-aos="fade-up">Every celebration deserves a masterpiece that makes your moments truly unforgettable.</p></div>
+      <div class="cake-grid">
+        <div class="cake-card" data-aos="fade-up" data-aos-delay="0"><div class="cake-img"><img id="cImg1" alt="Rosé Blossom Dream"/><div class="cake-img-grad"></div><span class="cake-tag"><i class="fas fa-crown"></i> Premium</span><a href="tel:+61351444994" class="cake-order-btn"><i class="fas fa-phone-alt"></i> Order This</a></div><div class="cake-body"><h3>Rosé Blossom Dream</h3><span class="cake-cursive">A garden of sweetness in every layer</span><p>Delicate pink petals, cascading floral details, and layers of heavenly flavour.</p><div class="cake-feats"><span class="cake-feat"><i class="fas fa-check"></i> Custom</span><span class="cake-feat"><i class="fas fa-check"></i> Premium</span><span class="cake-feat"><i class="fas fa-check"></i> Any Flavour</span></div></div></div>
+        <div class="cake-card" data-aos="fade-up" data-aos-delay="100"><div class="cake-img"><img id="cImg2" alt="Midnight Velvet Tower"/><div class="cake-img-grad"></div><span class="cake-tag"><i class="fas fa-star"></i> Signature</span><a href="tel:+61351444994" class="cake-order-btn"><i class="fas fa-phone-alt"></i> Order This</a></div><div class="cake-body"><h3>Midnight Velvet Tower</h3><span class="cake-cursive">Dark, dramatic, absolutely divine</span><p>Rich velvety chocolate adorned with intricate midnight decorations. Showstopping.</p><div class="cake-feats"><span class="cake-feat"><i class="fas fa-check"></i> Show-Stopping</span><span class="cake-feat"><i class="fas fa-check"></i> Multi-Layer</span><span class="cake-feat"><i class="fas fa-check"></i> Photo-Ready</span></div></div></div>
+        <div class="cake-card" data-aos="fade-up" data-aos-delay="0"><div class="cake-img"><img id="cImg3" alt="Golden Enchantment"/><div class="cake-img-grad"></div><span class="cake-tag"><i class="fas fa-palette"></i> Artistic</span><a href="tel:+61351444994" class="cake-order-btn"><i class="fas fa-phone-alt"></i> Order This</a></div><div class="cake-body"><h3>Golden Enchantment</h3><span class="cake-cursive">Where dreams become dessert</span><p>Shimmering gold accents, intricate sugar work, hand-painted details.</p><div class="cake-feats"><span class="cake-feat"><i class="fas fa-check"></i> Any Theme</span><span class="cake-feat"><i class="fas fa-check"></i> Hand-Decorated</span><span class="cake-feat"><i class="fas fa-check"></i> Unforgettable</span></div></div></div>
+        <div class="cake-card" data-aos="fade-up" data-aos-delay="100"><div class="cake-img"><img id="cImg4" alt="Royal Celebration"/><div class="cake-img-grad"></div><span class="cake-tag"><i class="fas fa-gem"></i> Luxury</span><a href="tel:+61351444994" class="cake-order-btn"><i class="fas fa-phone-alt"></i> Order This</a></div><div class="cake-body"><h3>Royal Celebration</h3><span class="cake-cursive">The crown jewel of every event</span><p>Towering tiers of pure luxury, adorned with elegant details and finest flavours.</p><div class="cake-feats"><span class="cake-feat"><i class="fas fa-check"></i> Premium Tier</span><span class="cake-feat"><i class="fas fa-check"></i> Luxury</span><span class="cake-feat"><i class="fas fa-check"></i> Jaw-Dropping</span></div></div></div>
+      </div>
+      <div class="cake-cta" data-aos="fade-up"><p>"Dream it. Describe it. We'll bake it. Every custom cake is designed exclusively for your special moment."</p><a href="tel:+61351444994" class="btn btn-call"><i class="fas fa-phone-alt"></i> Call To Order Your Dream Cake</a></div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <div class="about-wrap">
+      <div class="about-imgs"><div class="a-img1" data-aos="fade-right"><img id="aImg1" alt="Bakehouse"/></div><div class="a-img2" data-aos="fade-up" data-aos-delay="200"><img id="aImg2" alt="Our Shop"/></div><div class="a-badge" data-aos="zoom-in" data-aos-delay="400"><span class="bi">4.6</span><span class="bt">Star<br>Rating</span></div></div>
+      <div class="about-text"><p class="at-sub" data-aos="fade-left">Our Story</p><h2 data-aos="fade-left" data-aos-delay="100">A Passion <em>Baked Into</em> Every Day</h2><p data-aos="fade-left" data-aos-delay="150">At Jacks Country Bakehouse Cafe, every morning begins before the sun rises — with flour-dusted hands, warm ovens, and a deep passion baked into everything we create.</p><p data-aos="fade-left" data-aos-delay="200">Nestled in Sale, Victoria, we're where friends reconnect over our famous Flat White, and every bite of our Crispy Confit Chicken tells a story of love.</p><p data-aos="fade-left" data-aos-delay="250">From stunning custom cakes to our Teddy Bear Cookies and Braided Biscuits — everything is handcrafted fresh daily. No shortcuts. Just honest country baking.</p>
+      <div class="a-feats" data-aos="fade-up" data-aos-delay="300"><div class="a-feat"><i class="fas fa-bread-slice"></i><span>Baked Fresh Daily</span></div><div class="a-feat"><i class="fas fa-cake-candles"></i><span>Custom Cakes</span></div><div class="a-feat"><i class="fas fa-heart"></i><span>Community Loved</span></div><div class="a-feat"><i class="fas fa-star"></i><span>4.6 Star Rating</span></div><div class="a-feat"><i class="fas fa-mug-hot"></i><span>Perfect Flat Whites</span></div><div class="a-feat"><i class="fas fa-handshake"></i><span>Family Values</span></div></div></div>
+    </div>
+  </section>
+
+  <section class="counter"><div class="cnt-bg" id="cntBg"></div><div class="cnt-ov"></div><div class="cnt-grid">
+    <div class="cnt-item" data-aos="zoom-in"><div class="cnt-ico"><i class="fas fa-face-smile"></i></div><div class="cnt-num" data-target="5000">0<span class="suf">+</span></div><div class="cnt-label">Happy Customers</div></div>
+    <div class="cnt-item" data-aos="zoom-in" data-aos-delay="80"><div class="cnt-ico"><i class="fas fa-cake-candles"></i></div><div class="cnt-num" data-target="1200">0<span class="suf">+</span></div><div class="cnt-label">Custom Cakes</div></div>
+    <div class="cnt-item" data-aos="zoom-in" data-aos-delay="160"><div class="cnt-ico"><i class="fas fa-bread-slice"></i></div><div class="cnt-num" data-target="75">0<span class="suf">+</span></div><div class="cnt-label">Baked Varieties</div></div>
+    <div class="cnt-item" data-aos="zoom-in" data-aos-delay="240"><div class="cnt-ico"><i class="fas fa-mug-hot"></i></div><div class="cnt-num" data-target="10000">0<span class="suf">+</span></div><div class="cnt-label">Flat Whites Served</div></div>
+  </div></section>
+
+  <section class="section services" id="services">
+    <div class="sh"><span class="s-badge" data-aos="fade-down"><i class="fas fa-concierge-bell"></i> Services & Amenities</span><h2 data-aos="fade-up">Everything For Your <em>Convenience</em></h2><div class="s-div" data-aos="fade-up"><div class="sl"></div><div class="sd"></div><div class="sl"></div></div><p data-aos="fade-up">We've thought of everything so you can enjoy every delicious moment with us.</p></div>
+    <div class="svc-grid">
+      <div class="svc-card" data-aos="fade-up"><div class="svc-head"><div class="svc-icon"><i class="fas fa-bell-concierge"></i></div><h3>Service Options<span>How we serve you</span></h3></div><div class="svc-tags"><span class="svc-tag accent"><i class="fas fa-truck"></i> Delivery</span><span class="svc-tag"><i class="fas fa-store"></i> On-site</span><span class="svc-tag accent"><i class="fas fa-bag-shopping"></i> Takeaway</span><span class="svc-tag"><i class="fas fa-chair"></i> Dine-in</span></div></div>
+      <div class="svc-card" data-aos="fade-up" data-aos-delay="80"><div class="svc-head"><div class="svc-icon"><i class="fas fa-utensils"></i></div><h3>Dining & Offerings<span>What awaits you</span></h3></div><div class="svc-tags"><span class="svc-tag accent"><i class="fas fa-mug-hot"></i> Coffee</span><span class="svc-tag"><i class="fas fa-sun"></i> Breakfast</span><span class="svc-tag accent"><i class="fas fa-bolt"></i> Quick Visit</span><span class="svc-tag"><i class="fas fa-bread-slice"></i> Fresh Bakes</span></div></div>
+      <div class="svc-card" data-aos="fade-up" data-aos-delay="160"><div class="svc-head"><div class="svc-icon"><i class="fas fa-wheelchair-move"></i></div><h3>Accessibility<span>Everyone is welcome</span></h3></div><div class="svc-tags"><span class="svc-tag accent"><i class="fas fa-square-parking"></i> Wheelchair Car Park</span><span class="svc-tag"><i class="fas fa-door-open"></i> Wheelchair Entrance</span></div></div>
+      <div class="svc-card" data-aos="fade-up"><div class="svc-head"><div class="svc-icon"><i class="fas fa-credit-card"></i></div><h3>Payment Methods<span>Pay your way</span></h3></div><div class="svc-tags"><span class="svc-tag accent"><i class="fas fa-credit-card"></i> Credit Cards</span><span class="svc-tag"><i class="fas fa-credit-card"></i> Debit Cards</span><span class="svc-tag accent"><i class="fas fa-mobile-screen"></i> NFC Mobile</span><span class="svc-tag"><i class="fab fa-cc-mastercard"></i> Mastercard</span></div></div>
+      <div class="svc-card" data-aos="fade-up" data-aos-delay="80"><div class="svc-head"><div class="svc-icon"><i class="fas fa-car"></i></div><h3>Parking<span>Easy & free</span></h3></div><div class="svc-tags"><span class="svc-tag accent"><i class="fas fa-square-parking"></i> Free Parking Lot</span><span class="svc-tag"><i class="fas fa-road"></i> Free Street Parking</span></div></div>
+      <div class="svc-card" data-aos="fade-up" data-aos-delay="160"><div class="svc-head"><div class="svc-icon"><i class="fas fa-clock"></i></div><h3>Opening Hours<span>Plan your visit</span></h3></div><div class="svc-tags"><span class="svc-tag accent"><i class="fas fa-calendar-check"></i> Mon–Fri: 7AM – 3PM</span><span class="svc-tag" style="color:#e74c3c"><i class="fas fa-calendar-xmark" style="color:#e74c3c"></i> Sat & Sun: Closed</span></div></div>
+    </div>
+  </section>
+
+  <section class="section reviews"><div class="sh"><span class="s-badge" data-aos="fade-down"><i class="fas fa-quote-left"></i> Reviews</span><h2 data-aos="fade-up">What Customers <em>Say</em></h2><div class="s-div" data-aos="fade-up"><div class="sl"></div><div class="sd"></div><div class="sl"></div></div></div>
+    <div class="rev-slider" data-aos="fade-up">
+      <div class="rev-slide active"><div class="rev-stars">★★★★★</div><p class="rev-text">"The best Flat White in Sale! The Crispy Confit Chicken is incredible and the custom cake for my daughter's birthday was breathtaking!"</p><div class="rev-author"><div class="rev-avatar">S</div><div class="rev-info"><h4>Sarah Mitchell</h4><span>Sale, Victoria</span></div></div></div>
+      <div class="rev-slide"><div class="rev-stars">★★★★★</div><p class="rev-text">"Addicted to their Braided Cookies and Gourmet Sandwiches! Everything is always fresh. Feels like visiting family."</p><div class="rev-author"><div class="rev-avatar">M</div><div class="rev-info"><h4>Michael Thompson</h4><span>Maffra, Victoria</span></div></div></div>
+      <div class="rev-slide"><div class="rev-stars">★★★★★</div><p class="rev-text">"Our wedding cake was beyond imagination. Visually stunning, tasted divine. Every guest was asking about it!"</p><div class="rev-author"><div class="rev-avatar">E</div><div class="rev-info"><h4>Emily & James</h4><span>Sale, Victoria</span></div></div></div>
+      <div class="rev-slide"><div class="rev-stars">★★★★★</div><p class="rev-text">"My kids go crazy for the Teddy Bear Cookies! I drive 30 minutes for their Flat White. A true treasure!"</p><div class="rev-author"><div class="rev-avatar">D</div><div class="rev-info"><h4>David Chen</h4><span>Sale, Victoria</span></div></div></div>
+    </div>
+    <div class="rev-dots" data-aos="fade-up"><div class="rev-dot active" onclick="goSlide(0)"></div><div class="rev-dot" onclick="goSlide(1)"></div><div class="rev-dot" onclick="goSlide(2)"></div><div class="rev-dot" onclick="goSlide(3)"></div></div>
+  </section>
+
+  <section class="prlx"><div class="prlx-bg" id="prlxBg2"></div><div class="prlx-ov"></div><div class="prlx-inner"><div class="qm" data-aos="fade-down">"</div><blockquote data-aos="fade-up">"The secret ingredient is always love. We pour it into every Flat White, every cookie, every cake, and every smile."</blockquote><div class="qa" data-aos="fade-up" data-aos-delay="150">— Baked With Heart Since Day One</div></div></section>
+
+  <section class="section faq" id="faq"><div class="sh"><span class="s-badge" data-aos="fade-down"><i class="fas fa-circle-question"></i> FAQ</span><h2 data-aos="fade-up">Common <em>Questions</em></h2><div class="s-div" data-aos="fade-up"><div class="sl"></div><div class="sd"></div><div class="sl"></div></div></div>
+    <div class="faq-list">
+      <div class="faq-item" data-aos="fade-up"><div class="faq-q" onclick="toggleFAQ(this)"><h4>What are your opening hours?</h4><div class="faq-ico"><i class="fas fa-plus"></i></div></div><div class="faq-a"><p>Monday to Friday, 7:00 AM to 3:00 PM. Closed Saturday & Sunday.</p></div></div>
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="60"><div class="faq-q" onclick="toggleFAQ(this)"><h4>Do you make custom design cakes?</h4><div class="faq-ico"><i class="fas fa-plus"></i></div></div><div class="faq-a"><p>Yes! Call us at <a href="tel:+61351444994" style="color:var(--primary);font-weight:600">(03) 5144 4994</a> to discuss your dream cake!</p></div></div>
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="120"><div class="faq-q" onclick="toggleFAQ(this)"><h4>How can I place an order?</h4><div class="faq-ico"><i class="fas fa-plus"></i></div></div><div class="faq-a"><p>Call <a href="tel:+61351444994" style="color:var(--primary);font-weight:600">(03) 5144 4994</a> or email <a href="mailto:jackscountrybakehouse@gmail.com" style="color:var(--primary);font-weight:600">jackscountrybakehouse@gmail.com</a></p></div></div>
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="180"><div class="faq-q" onclick="toggleFAQ(this)"><h4>Is everything baked fresh daily?</h4><div class="faq-ico"><i class="fas fa-plus"></i></div></div><div class="faq-a"><p>Yes! Our bakers arrive before dawn. Everything is freshly made that day.</p></div></div>
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="240"><div class="faq-q" onclick="toggleFAQ(this)"><h4>Where are you located?</h4><div class="faq-ico"><i class="fas fa-plus"></i></div></div><div class="faq-a"><p>284 Dawson Street, Sale VIC 3850, Australia.</p></div></div>
+      <div class="faq-item" data-aos="fade-up" data-aos-delay="300"><div class="faq-q" onclick="toggleFAQ(this)"><h4>What service options do you offer?</h4><div class="faq-ico"><i class="fas fa-plus"></i></div></div><div class="faq-a"><p>Delivery, On-site, Takeaway & Dine-in. Wheelchair accessible. Free parking. All cards & NFC accepted.</p></div></div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact"><div class="sh"><span class="s-badge" data-aos="fade-down"><i class="fas fa-map-pin"></i> Visit</span><h2 data-aos="fade-up">Come <em>Visit</em> Today</h2><div class="s-div" data-aos="fade-up"><div class="sl"></div><div class="sd"></div><div class="sl"></div></div></div>
+    <div class="contact-wrap">
+      <div class="contact-left">
+        <div class="ci" data-aos="fade-right"><h3>We're Here For You</h3><h2>Let's Connect</h2><p>The kettle is always on and the oven is always warm!</p></div>
+        <a href="https://maps.google.com/?q=284+Dawson+Street+Sale+VIC+3850+Australia" target="_blank" rel="noopener" class="c-card" data-aos="fade-right" data-aos-delay="60"><div class="c-card-ico"><i class="fas fa-map-marker-alt"></i></div><div><h4>Location</h4><p>284 Dawson Street, Sale VIC 3850</p></div></a>
+        <a href="tel:+61351444994" class="c-card" data-aos="fade-right" data-aos-delay="120"><div class="c-card-ico"><i class="fas fa-phone-alt"></i></div><div><h4>Call Us — Tap to Dial</h4><p style="color:var(--primary);font-weight:600;font-size:1rem">(03) 5144 4994</p></div></a>
+        <a href="mailto:jackscountrybakehouse@gmail.com" class="c-card" data-aos="fade-right" data-aos-delay="180"><div class="c-card-ico"><i class="fas fa-envelope"></i></div><div><h4>Email Us — Tap to Send</h4><p style="color:var(--primary);font-weight:500">jackscountrybakehouse@gmail.com</p></div></a>
+        <div class="c-card" data-aos="fade-right" data-aos-delay="240"><div class="c-card-ico"><i class="fas fa-clock"></i></div><div><h4>Hours</h4><p>Mon–Fri: 7:00 AM – 3:00 PM<br>Sat & Sun: <strong style="color:#e74c3c">Closed</strong></p></div></div>
+        <a href="https://www.facebook.com/share/1AiTznsX9E/" target="_blank" rel="noopener" class="c-card" data-aos="fade-right" data-aos-delay="300"><div class="c-card-ico"><i class="fab fa-facebook-f"></i></div><div><h4>Facebook</h4><p style="color:var(--primary)">Follow us on Facebook →</p></div></a>
+      </div>
+      <div class="map-box" data-aos="fade-left"><iframe src="https://www.google.com/maps?q=284+Dawson+Street+Sale+VIC+3850+Australia&output=embed" allowfullscreen loading="lazy"></iframe></div>
+    </div>
+  </section>
+
+  <section class="cta"><div class="cta-bg" id="ctaBgEl"></div><div class="cta-ov"></div>
+    <div class="cta-inner"><h2 data-aos="fade-up">Craving Something <em>Extraordinary?</em></h2><p data-aos="fade-up" data-aos-delay="150">Call us now for custom cakes, Crispy Confit Chicken, Gourmet Sandwiches, cookies & the perfect Flat White!</p>
+      <div class="cta-btns" data-aos="fade-up" data-aos-delay="300">
+        <a href="tel:+61351444994" class="btn btn-call"><i class="fas fa-phone-alt"></i> Call (03) 5144 4994</a>
+        <a href="mailto:jackscountrybakehouse@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Email Us</a>
+        <a href="https://www.facebook.com/share/1AiTznsX9E/" target="_blank" rel="noopener" class="btn btn-glass"><i class="fab fa-facebook-f"></i> Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="f-grid">
+    <div class="f-brand"><div class="f-logo">Jacks Country Bakehouse Cafe</div><div class="f-sub">Where Every Bite Tells A Story — ★ 4.6</div><p>Famous for Flat Whites, Crispy Confit Chicken, stunning custom cakes, artisan cookies & gourmet sandwiches. Baked fresh daily with love.</p><div class="f-socials"><a href="https://www.facebook.com/share/1AiTznsX9E/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a><a href="tel:+61351444994"><i class="fas fa-phone"></i></a><a href="mailto:jackscountrybakehouse@gmail.com"><i class="fas fa-envelope"></i></a></div></div>
+    <div class="f-col"><h4>Quick Links</h4><ul><li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li><li><a href="#about"><i class="fas fa-chevron-right"></i> Story</a></li><li><a href="#food"><i class="fas fa-chevron-right"></i> Our Bakes</a></li><li><a href="#cakes"><i class="fas fa-chevron-right"></i> Cakes</a></li><li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li><li><a href="#contact"><i class="fas fa-chevron-right"></i> Visit Us</a></li></ul></div>
+    <div class="f-col"><h4>Hours</h4><ul><li>Monday — Friday</li><li><strong style="color:var(--primary)">7:00 AM – 3:00 PM</strong></li><li style="margin-top:8px">Saturday & Sunday</li><li><strong style="color:#e74c3c">Closed</strong></li></ul></div>
+    <div class="f-col"><h4>Contact</h4><ul><li><i class="fas fa-phone"></i> <a href="tel:+61351444994">(03) 5144 4994</a></li><li><i class="fas fa-envelope"></i> <a href="mailto:jackscountrybakehouse@gmail.com">Email Us</a></li><li><i class="fas fa-map-marker-alt"></i> 284 Dawson St, Sale</li><li><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/share/1AiTznsX9E/" target="_blank" rel="noopener">Facebook</a></li></ul></div>
+  </div><div class="f-bottom"><p>© 2025 Jacks Country Bakehouse Cafe. All Rights Reserved. | Made with <i class="fas fa-heart" style="color:var(--primary)"></i> in Australia</p></div></footer>
+
+  <a href="tel:+61351444994" class="call-float" aria-label="Call us"><i class="fas fa-phone-alt"></i></a>
+  <div class="btt" id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-arrow-up"></i></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    /* IMAGES */
+    function loadImages(){var I=IMAGES;['preLogo','navLogo','heroLogo'].forEach(function(id){document.getElementById(id).src=I.logo});document.getElementById('heroBg').style.backgroundImage="url("+I.hero+")";document.getElementById('fImg1').src=I.coffee;document.getElementById('fImg2').src=I.chicken;document.getElementById('fImg3').src=I.sandwich;document.getElementById('fImg5').src=I.cookies1;document.getElementById('fImg6').src=I.cookies2;document.getElementById('fImg7').src=I.cookies3;document.getElementById('fImgPromise').src=I.promise;document.getElementById('cImg1').src=I.cake1;document.getElementById('cImg2').src=I.cake2;document.getElementById('cImg3').src=I.cake3;document.getElementById('cImg4').src=I.cake4;document.getElementById('aImg1').src=I.about1;document.getElementById('aImg2').src=I.about2;document.getElementById('cntBg').style.backgroundImage="url("+I.parallax1+")";document.getElementById('prlxBg1').style.backgroundImage="url("+I.parallax1+")";document.getElementById('prlxBg2').style.backgroundImage="url("+I.parallax2+")";document.getElementById('cakeBg').style.backgroundImage="url("+I.cakeBg+")";document.getElementById('ctaBgEl').style.backgroundImage="url("+I.ctaBg+")"}
+    document.addEventListener('DOMContentLoaded',loadImages);
+    /* PRELOADER */
+    window.addEventListener('load',function(){setTimeout(function(){document.getElementById('preloader').classList.add('hidden')},1200)});
+    /* AOS */
+    document.addEventListener('DOMContentLoaded',function(){AOS.init({duration:600,easing:'ease-out-quad',once:true,offset:50,disable:'mobile'<768?false:false})});
+    /* THEME */
+    function setTheme(t){document.documentElement.setAttribute('data-theme',t);document.getElementById('lightBtn').classList.toggle('active',t==='light');document.getElementById('darkBtn').classList.toggle('active',t==='dark');localStorage.setItem('theme',t)}
+    (function(){var t=localStorage.getItem('theme');if(t)setTheme(t)})();
+    /* PARTICLES — REDUCED */
+    (function(){var c=document.getElementById('particles'),n=window.innerWidth<768?8:15;for(var i=0;i<n;i++){var p=document.createElement('div');p.classList.add('particle',Math.random()>.5?'p-glow':'p-dot');var s=Math.random()*4+2;p.style.cssText='width:'+s+'px;height:'+s+'px;left:'+Math.random()*100+'%;animation-duration:'+(Math.random()*12+10)+'s;animation-delay:'+(Math.random()*10)+'s';c.appendChild(p)}})();
+    /* SCROLL — THROTTLED */
+    var st=0;function onScroll(){var s=window.scrollY;if(Math.abs(s-st)<5)return;st=s;var h=document.documentElement.scrollHeight-window.innerHeight;document.getElementById('scrollProg').style.width=(s/h)*100+'%';document.getElementById('navbar').classList.toggle('scrolled',s>60);document.getElementById('btt').classList.toggle('show',s>500)}
+    var raf;window.addEventListener('scroll',function(){if(raf)return;raf=requestAnimationFrame(function(){onScroll();raf=null})},{passive:true});
+    /* MENU */
+    function toggleMenu(){document.getElementById('navLinks').classList.toggle('open');document.getElementById('hamburger').classList.toggle('active')}
+    function closeMenu(){document.getElementById('navLinks').classList.remove('open');document.getElementById('hamburger').classList.remove('active')}
+    /* TYPEWRITER */
+    var twT=['Baked Fresh Daily · Sale, Victoria','The Perfect Flat White · Confit Chicken','Custom Design Cakes · Artisan Cookies','Gourmet Sandwiches · Teddy Bear Biscuits','Dine-in · Takeaway · Delivery'],twI=0,twC=0,twD=false,twE=document.getElementById('typewriter');
+    function tw(){var t=twT[twI];if(!twD){twC++;if(twC>t.length){setTimeout(function(){twD=true;tw()},2000);return}}else{twC--;if(twC<0){twD=false;twI=(twI+1)%twT.length;setTimeout(tw,400);return}}twE.textContent=t.substring(0,twC);setTimeout(tw,twD?20:50)}
+    setTimeout(tw,2000);
+    /* REVIEWS */
+    var curS=0,slides=document.querySelectorAll('.rev-slide'),dots=document.querySelectorAll('.rev-dot'),si;
+    function goSlide(n){slides[curS].classList.remove('active');dots[curS].classList.remove('active');curS=n;slides[curS].classList.add('active');dots[curS].classList.add('active')}
+    function nextS(){goSlide((curS+1)%slides.length)}
+    function startS(){si=setInterval(nextS,5000)}startS();
+    document.querySelector('.rev-slider').addEventListener('mouseenter',function(){clearInterval(si)});
+    document.querySelector('.rev-slider').addEventListener('mouseleave',startS);
+    var tsx=0,slE=document.querySelector('.rev-slider');
+    slE.addEventListener('touchstart',function(e){tsx=e.changedTouches[0].screenX},{passive:true});
+    slE.addEventListener('touchend',function(e){var ex=e.changedTouches[0].screenX;if(tsx-ex>50)nextS();if(ex-tsx>50)goSlide((curS-1+slides.length)%slides.length)});
+    /* COUNTER */
+    var cD=false,cO=new IntersectionObserver(function(e){e.forEach(function(en){if(en.isIntersecting&&!cD){cD=true;document.querySelectorAll('.cnt-num').forEach(function(c){var t=parseInt(c.getAttribute('data-target')),sf=c.querySelector('.suf'),st=sf?sf.textContent:'',cu=0,ic=t/60;var ti=setInterval(function(){cu+=ic;if(cu>=t){cu=t;clearInterval(ti)}c.innerHTML=st?Math.floor(cu)+'<span class="suf">'+st+'</span>':Math.floor(cu)},30)})}})},{threshold:.3});
+    document.querySelectorAll('.counter').forEach(function(el){cO.observe(el)});
+    /* FAQ */
+    function toggleFAQ(el){var item=el.parentElement,o=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(function(f){f.classList.remove('open')});if(!o)item.classList.add('open')}
+    /* SMOOTH SCROLL — only # links */
+    document.querySelectorAll('a[href^="#"]').forEach(function(a){a.addEventListener('click',function(e){var h=this.getAttribute('href');if(h&&h.length>1){var t=document.querySelector(h);if(t){e.preventDefault();window.scrollTo({top:t.offsetTop-75,behavior:'smooth'})}}})});
+  </script>
+</body>
+</html>
